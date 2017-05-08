@@ -12,6 +12,9 @@ import {
   View
 } from 'react-native';
 
+ import Button from './src/button.js'
+ import Geolocation from './src/geolocation.js'
+
 export default class maskApp extends Component {
   render() {
     return (
@@ -26,10 +29,13 @@ export default class maskApp extends Component {
           Double tap R on your keyboard to reload,{'\n'}
           Shake or press menu button for dev menu
         </Text>
+        <Geolocation/>
       </View>
     );
   }
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
@@ -45,9 +51,9 @@ const styles = StyleSheet.create({
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
+    color: '#333331',
     marginBottom: 5,
-  },
+  }
 });
 
 AppRegistry.registerComponent('maskApp', () => maskApp);
