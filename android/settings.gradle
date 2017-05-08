@@ -1,0 +1,3 @@
+rootProject.name = 'maskApp'
+
+include ':app'
