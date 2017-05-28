@@ -1,10 +1,10 @@
-var React = require('react');
-var ReactNative = require('react-native');
-var {
+import React, { Component } from 'react';
+import {
+  AppRegistry,
   StyleSheet,
   Text,
-  View,
-} = ReactNative;
+  View
+} from 'react-native';
 
 export default class Geolocation extends React.Component {
   state = {
