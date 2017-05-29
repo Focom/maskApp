@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 
-class Setting extends Component {
+export default  class RawData extends Component {
     render() {
         return (
-           <Text>Yo les settings</Text>   
-        );
+           <Text>Yo voila les RawData</Text>   
+        )
     }
 }
-
-export default Setting;

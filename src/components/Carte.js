@@ -1,12 +1,14 @@
+
 import React, { Component } from 'react';
 import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 
-class Setting extends Component {
+
+class Carte extends Component {
     render() {
         return (
-           <Text>Yo les settings</Text>   
+          <Text>Yo</Text>  
         );
     }
 }
 
-export default Setting;
+export default Carte;

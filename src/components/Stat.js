@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 
-class Setting extends Component {
+class Stat extends Component {
     render() {
         return (
-           <Text>Yo les settings</Text>   
-        );
+           <Text>Yo les Stats</Text>   
+        )
     }
 }
 
-export default Setting;
+export default Stat
