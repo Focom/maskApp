@@ -14,7 +14,7 @@ export default class ButtonContainer extends Component {
                     <Text style={styles.button_text}>RawData</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.button} onPress = {() => Actions.Stat({})}>
-                    <Text style={styles.button_text}>Stat</Text>
+                    <Text style={styles.button_text}>Location</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.button} onPress = {() => Actions.Setting({})}>
                     <Text style={styles.button_text}>Setting</Text>

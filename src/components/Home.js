@@ -8,10 +8,10 @@ export default class Home extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.text}>
-          Welcome on the Fluxo App
+          Welcome on the Flux'O App
         </Text>
-        <Text>
-          Click On the buttons to go to a section
+        <Text style={{paddingBottom: 15, fontSize: 20}}>
+          Choose a section below :
         </Text>
         <View style = {styles.buttons}>
         <ButtonContainer/>
@@ -24,7 +24,7 @@ export default class Home extends Component {
 const styles = StyleSheet.create({
   text: {
     color: 'black',
-    fontSize: 30
+    fontSize: 38
   },
   container: {
     display: 'flex',

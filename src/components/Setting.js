@@ -1,12 +1,21 @@
 import React, { Component } from 'react';
-import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
+import {Text, View, StyleSheet, TouchableOpacity, Image} from 'react-native';
 
-class Setting extends Component {
+export default class Setting extends Component {
     render() {
         return (
-           <Text>Yo les settings</Text>   
+            <View>
+           <Text style = {styles.text}>En attendant d'avoir des paramètres voila une image de Flux'O</Text>   
+           <Image source={require('../jaune.jpg')} />
+            </View>
         );
     }
 }
 
-export default Setting;
+var styles = StyleSheet.create({
+  text: {
+    fontWeight: '500',
+    fontSize : 20,
+    marginBottom: 20
+  },
+});

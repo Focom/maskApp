@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {
   AppRegistry,
   StyleSheet,
@@ -6,13 +6,11 @@ import {
   View
 } from 'react-native';
 
-export default class Geolocation extends React.Component {
+export default class geolocation extends Component {
   state = {
     initialPosition: 'unknown',
     lastPosition: 'unknown',
-  };
-
-  watchID: ?number = null;
+  }
 
   componentDidMount() {
     navigator.geolocation.getCurrentPosition(

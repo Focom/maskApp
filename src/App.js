@@ -18,7 +18,7 @@ export default class App extends Component {
           <Scene key='Home' component={Home} title='Home' initial={true}/>
           <Scene key='Carte' component={Carte} title='Carte'/>
           <Scene key='RawData' component={RawData} title='RawData'/>          
-          <Scene key='Stat' component={Stat} title='Stat'/>
+          <Scene key='Stat' component={Stat} title='Geolocalisation'/>
           <Scene key='Setting' component={Setting} title='Setting'/>
         </Scene>
       </Router>
